@@ -5,11 +5,24 @@
 }
 
 body {
-    background-color: var(--branco--);
+   background-color: var(--branco--);
 
     --preto--: #1D1D1D;
     --branco--: #DDE1E2;
 }
+
+body.dark {
+    background-color: #1D1D1D;
+}
+
+.teste {
+    position: absolute;
+    left: 30px;
+
+    padding: 10px 40px;
+    font-size: 30px;
+}
+
 
 .Center {
    display: flex;

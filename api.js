@@ -5,7 +5,7 @@ const BotãoReset = document.querySelector(".Reset");
 
 const Timer = document.querySelector(".Display");
 let interval = ""
-let timeleft = 1500;
+let timeleft = 10;
 
 function update() {
     let minutes = Math.floor(timeleft / 60);
